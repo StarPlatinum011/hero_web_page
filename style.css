@@ -1,0 +1,75 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before,*::after{
+    box-sizing: inherit;
+}
+
+.cards{
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    flex: 1;
+    gap: 50px;
+}
+
+.card img{
+    width: 200px;
+    height: 150px;
+}
+.cards-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card #words{
+    flex:1 1 auto;
+}
+
+
+/*This is the section for navigation*/
+.nav-item{
+    background-color: #1f2937;
+}
+.nav-item ul{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+}
+.push-left{
+    margin-left: auto;
+}
+
+/*This is for the  carasoul section*/
+.carasoul-content{
+    padding: 45px 100px 45px 100px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: flex-start;
+}
+.carasoul-content h2{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: hero-bold;
+    color: #f9faf8;
+}
+.carasoul-content p{
+    font-family: hero-regular;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.carasoul-content img{
+    max-width: 500px;
+    max-height: 250px;
+    flex: 1;
+}
+.carasoul-content button{
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: none;
+    top: 50%;
+    padding: 15px;
+    min-height: 30px;
+    min-width: 120px;
+    color: #e5e7eb;
+}
