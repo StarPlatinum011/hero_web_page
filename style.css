@@ -5,10 +5,21 @@ html{
     box-sizing: inherit;
 }
 
-.cards{
-    padding: 0px 100px 0px 100px;
+.cards-content{
+    padding: 40px 90px 40px 90px;
+
     display: flex;
-    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: hero-bold;
+}
+.cards{
+    display: flex;
+    font-family: hero-regular;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
     gap: 50px;
 }
 
@@ -16,15 +27,8 @@ html{
     width: 200px;
     height: 150px;
 }
-.cards-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.card #words{
-    flex:1 1 auto;
-}
+
+
 
 
 /*This is the section for navigation*/
@@ -72,4 +76,69 @@ html{
     min-height: 30px;
     min-width: 120px;
     color: #e5e7eb;
+}
+
+/* quotes section */
+.quote{
+    background-color: #e5e7eb;
+    padding: 40px 60px 40px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote .text{
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-family: hero-regular;
+    font-weight: lighter;
+}
+
+.quote .author{
+    font-size: 22px;
+    color: #1f2937;
+    font-family: hero-regular;
+    font-weight: bold;
+}
+
+/*Section for the registration on bottom*/
+.reg-bottom{
+    margin: 45px 80px 45px 80px;
+    padding: 20px 80px 20px 80px;
+    background-color: #3882f6;
+    display: flex;
+    align-items: flex-start;
+}
+.reg-bottom .reg-start{
+    font-family: hero-regular;
+    color: #e5e7eb;
+}
+.reg-bottom .reg-start h3{
+    color: #f9faf8;
+}
+.reg-bottom button{
+    margin-top: 50px;
+    margin-left: 350px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: #e5e7eb;
+    top: 150%;
+    padding: 10px;
+    min-height: 30px;
+    min-width: 120px;
+    color: #f9faf8;
+}
+
+/*Footer*/
+footer{
+    background-color: #1f2937;
+    padding: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    font-family: hero-regular;
 }
