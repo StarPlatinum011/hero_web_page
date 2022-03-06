@@ -4,10 +4,13 @@ html{
 *, *::before,*::after{
     box-sizing: inherit;
 }
+body {    
+    margin: -16px 0 0 0 !important;
+    padding: 0 !important;
+}
 
 .cards-content{
-    padding: 40px 90px 40px 90px;
-
+    padding: 40px 170px 40px 170px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,19 +37,34 @@ html{
 /*This is the section for navigation*/
 .nav-item{
     background-color: #1f2937;
+    padding: 25px 120px 0px 120px;
 }
 .nav-item ul{
     display: flex;
     flex-wrap: wrap;
     column-gap: 40px;
+    list-style: none;
+}
+.nav-item ul li{
+    font-family: hero-regular;
+    font-style:none;
+}
+.nav-item ul li a{
+text-decoration: none;
+color: #e5e7eb;
+
 }
 .push-left{
     margin-left: auto;
 }
+.nav-item ul li img{
+    max-width: 50px;
+}
 
 /*This is for the  carasoul section*/
 .carasoul-content{
-    padding: 45px 100px 45px 100px;
+    margin-top: -16px;
+    padding: 0px 100px 105px 100px;
     background-color: #1f2937;
     display: flex;
     align-items: flex-start;
@@ -81,7 +99,7 @@ html{
 /* quotes section */
 .quote{
     background-color: #e5e7eb;
-    padding: 40px 60px 40px 60px;
+    padding: 40px 170px 40px 170px;
     display: flex;
     align-items: center;
     justify-content: center;
